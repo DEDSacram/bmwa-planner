@@ -102,6 +102,13 @@ body{
   transition: 0.3s;
 }
 
+#todo-lists div{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--bs-secondary);
+
+}
+
 .todo-list-container{
   display: flex;
   flex-direction: row;
@@ -130,6 +137,7 @@ body{
 
 
 
+
 .item-wrapper .button-wrapper{
   background-color: transparent;
 }
@@ -141,8 +149,6 @@ body{
   flex: 1;
   padding: 1rem;
 }
-
-
 
 
 .button-wrapper{
